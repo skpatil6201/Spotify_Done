@@ -1,0 +1,39 @@
+/* AlbumGrid.css */
+
+.circle-img-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+  }
+  
+  .album-img {
+    width: 160px;
+    height: 160px;
+    object-fit: cover;
+    border-radius: 50%;
+  }
+  
+  .card {
+    border: 2px solid #343a40; /* Dark border for card */
+    border-radius: 15px; /* Rounded corners for card */
+  }
+  
+  .card-title {
+    font-size: 1.25rem; /* Adjust title font size */
+  }
+  
+  .card-text {
+    color: #6c757d; /* Text color */
+  }
+  
+  /* Optional: Style for the button */
+  button {
+    transition: background-color 0.3s, color 0.3s;
+  }
+  
+  button:hover {
+    background-color: #343a40; /* Darker background on hover */
+    color: #fff; /* White text on hover */
+  }
+  
